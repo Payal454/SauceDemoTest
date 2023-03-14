@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Sauce Demo Application Test Automation Test Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.qa.ExtentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test name="Sauce Demo App Test Cases(failed)">
+    <classes>
+      <class name="com.sauce.qa.tests.CartPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="verifyYourcartLabelTest"/>
+        </methods>
+      </class> <!-- com.sauce.qa.tests.CartPageTest -->
+      <class name="com.sauce.qa.tests.LoginPageTest">
+        <methods>
+          <include name="loginTest"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.sauce.qa.tests.LoginPageTest -->
+      <class name="com.sauce.qa.tests.HoemPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="VerifyClickOnFristItemTest"/>
+          <include name="VerifyHomaPageTitleTest"/>
+          <include name="VerifyclickOnAddtoCartLinkTest"/>
+        </methods>
+      </class> <!-- com.sauce.qa.tests.HoemPageTest -->
+      <class name="com.sauce.qa.tests.ProductDetailsPageTest">
+        <methods>
+          <include name="VerifyforProductnameTest"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.sauce.qa.tests.ProductDetailsPageTest -->
+    </classes>
+  </test> <!-- Sauce Demo App Test Cases(failed) -->
+</suite> <!-- Failed suite [Sauce Demo Application Test Automation Test Suite] -->
