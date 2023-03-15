@@ -8,6 +8,7 @@
           <include name="tearDown"/>
           <include name="VerifyCheckOutButton"/>
           <include name="setup"/>
+          <include name="verifyYourcartLabelTest"/>
         </methods>
       </class> <!-- com.sauce.qa.tests.CartPageTest -->
     </classes>
